@@ -1,13 +1,6 @@
 import altair as alt
 import numpy as np
 import pandas as pd
-from prophet import Prophet
-from plotly import graph_objs as go
-import glob
-from pandas_datareader import data as pdr
-from datetime import date
-import yfinance as yf
-import os
 import streamlit as st
 
 yf.pdr_override()
